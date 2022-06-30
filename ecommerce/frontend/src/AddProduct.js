@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router';
  {/* php artisan storage:link  foto almak için*/}
 
         {/* {
-         api/config*FileSystems dosyasından
+         api/config/FileSystems dosyasından
 
          'links' => [
           public_path('products') => storage_path('app/products'),
