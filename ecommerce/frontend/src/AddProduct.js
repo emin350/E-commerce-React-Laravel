@@ -3,6 +3,17 @@ import Header from './Header'
 import axios from 'axios';
 import { useNavigate } from 'react-router';
 
+ {/* php artisan storage:link  foto almak için*/}
+
+        {/* {
+         api/config*FileSystems dosyasından
+
+         'links' => [
+          public_path('products') => storage_path('app/products'),
+      ],
+         tablo adı deiştirildi (products)
+        } */}
+
 
 function AddProduct() {
   const [name, setName] = useState("");
@@ -62,8 +73,6 @@ function AddProduct() {
           className='form-control'
           onChange={(e) => setDescription(e.target.value)}
         />
-
-        {/* php artisan storage:link  foto almak için*/}
 
         <br />
 
